@@ -1,51 +1,90 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	vertical-align: center;
+	color: white;
 }
 
 
 h1 {
-	color: white;
-	font-width: 800;
+	font-weight: 800;
 	font-size: 48px;
+	text-align: left;
 }
 
 
 h2 {
-	color: white;
-	font-width: 600;
+	font-weight: 600;
 	font-size: 48px;
+	margin:100px;
 }
 
 h3 {
-	font-width: 600;
+	color: #121212;
+	font-weight: 800;
+	font-size: 28px;
+}
+
+
+h4 {
+	font-weight: 600;
 	font-size: 40px;
 }
 
 p {
-	font-width: 300;
+	color: black;
+	font-weight: 300;
 	font-size: 26px;
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
+p.quote {
+	background-image: url("../images/testimonial_bg.jpg");
+	font-style: italic;
+	font-size: 36px;
+}
+
+ul {
+	font-weight: 300;
+	font-size: 26px;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	padding: 50px;
+}
 
 div.top {
 	background-image: url("../images/header_bg.jpg");
-	background-size: 100%;
+	background-position: center center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
 }
 
-div.button-yellow {
-	border: 5px black solid;
-	background-color: yellow;
-	box-sizing: border-box;	
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	width: 100px;
-	color: black;
-	font-width: 800;
-	font-size: 28px;
+div.buttonyellow {
+	background-color: #f9e42e;
+	border: 5px #121212 solid;
+	padding: 10px;
+	margin: 150px;
 }
+
+div.benefits {
+	background-color: #f0efef;
+	height: 300px;
+	text-align: left;
+	vertical-align: center;
+	color: #121212;
+
+}
+
 
 
 
