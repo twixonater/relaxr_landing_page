@@ -5,87 +5,133 @@ body {
 	color: white;
 }
 
-
+/*logo*/
 h1 {
 	font-weight: 800;
 	font-size: 48px;
 	text-align: left;
+	padding-top: 4%;
+	padding-left: 6%;
+	padding-bottom: 10%;
 }
-
 
 h2 {
 	font-weight: 600;
 	font-size: 48px;
-	margin:100px;
 }
 
+/*GetAPieceOfMind*/
+h2.pieceofmind {
+	margin-bottom: 10%;
+}
+
+/*RelaxrYellow*/
+h2.yellow {
+	color: #f9e42e;
+	padding-top: 70px;
+}
+
+.buttons {
+	box-sizing: border-box;
+	border: solid 5px black;
+	width: 250px;
+	padding: 20px;
+	margin-top: 36px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*GetItNowButton*/
 h3 {
 	color: #121212;
 	font-weight: 800;
 	font-size: 28px;
+	display: inline-block;
+	background-color: #f9e42e;
+	margin-bottom: 20%;
+}
+
+/*SignUpNowButtonBlue*/
+h3.invert {
+	background-color: #033048;
+	color: white;
+
 }
 
 
+/*benefits*/
 h4 {
 	font-weight: 600;
 	font-size: 40px;
 }
 
+h4.testimonial {
+	font-size: 36px;
+	margin-top: 30px;
+}
+
+/*BenefitsText*/
 p {
-	color: black;
 	font-weight: 300;
 	font-size: 26px;
-	margin-top: 10px;
-	margin-bottom: 15px;
+	margin: 20px;
 }
 
-p.quote {
-	background-image: url("../images/testimonial_bg.jpg");
-	font-style: italic;
-	font-size: 36px;
-}
-
+/*BenefitsBulletts*/
 ul {
 	font-weight: 300;
 	font-size: 26px;
-	margin: 10px;
+	margin: 20px 20px 20px 50px;
+	list-style: disc outside;
 }
+
 
 a {
 	text-decoration: none;
 }
 
-div {
-	padding: 50px;
-}
 
-div.top {
+header {
 	background-image: url("../images/header_bg.jpg");
-	background-position: center center;
-	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
-
-	text-align: center;
 }
 
-div.buttonyellow {
-	background-color: #f9e42e;
-	border: 5px #121212 solid;
-	padding: 10px;
-	margin: 150px;
+section {
+	padding-top: 100px;
 }
 
-div.benefits {
+.benefits {
 	background-color: #f0efef;
 	height: 300px;
 	text-align: left;
-	vertical-align: center;
 	color: #121212;
-
+	padding: 50px;
 }
 
+div.signupnow {
+	background-color: #f9e42e;
+	height: 150px;
+}
 
+.quote {
+	background-image: url("../images/testimonial_bg.jpg");
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+}
 
+footer {
+	background-color: #121212;
+	height: 350px;
+}
 
+img {
+	margin: 10px;
+}
 
+.social {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
